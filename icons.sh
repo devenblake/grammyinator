@@ -21,7 +21,7 @@ curl "https://web.archive.org/web/20200629174002if_/https://989wclz.com/wp-conte
 curl "https://web.archive.org/web/20200718050400if_/https://www.amazon.com/favicon.ico" -o "amazon.com.ico"
 
 # bangordailynews.com
-curl "https://web.archive.org/save/_embed/https://i2.wp.com/bdn-data.s3.amazonaws.com/uploads/2020/06/Just_BDN_40x40px.jpg?w=1200&ssl=1" -o "bangordailynews.com.jpg"
+curl "http://web.archive.org/web/20200721195123/https://i0.wp.com/bdn-data.s3.amazonaws.com/uploads/2020/06/BDN-logo_green-3-1.png" -o "bangordailynews.com.png"
 
 # theguardian.com
 curl "https://web.archive.org/web/20200720041457if_/https://assets.guim.co.uk/images/favicons/fee5e2d638d1c35f6d501fa397e53329/152x152.png" -o "theguardian.com.png"
