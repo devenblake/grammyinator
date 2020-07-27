@@ -4,7 +4,7 @@
 apt update
 apt install libpam0g-dev libxcb-xkb-dev git # available in default repos
 
-git clone https://github.com/cylgom/ly.git
+git clone https://github.com/nullgemm/ly.git
 cd ly
 make github
 make
