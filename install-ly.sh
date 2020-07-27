@@ -2,7 +2,7 @@
 
 # install dependencies
 apt update
-apt install libpam0g-dev libxcb-xkb-dev git # available in default repos
+apt install build-essential git libpam0g-dev libxcb-xkb-dev # available in default repos
 
 git clone https://github.com/nullgemm/ly.git
 cd ly
