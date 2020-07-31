@@ -1,6 +1,6 @@
 # Chicago95 installer
 
-# os-agnostic as long as it's UNIX-like
+# for debian-based systems (because of that git installation command)
 
 apt install git
 git clone https://github.com/grassmunk/Chicago95.git
