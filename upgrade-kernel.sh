@@ -8,7 +8,8 @@ echo "deb http://deb.debian.org/debian buster-backports main" > /etc/apt/sources
 apt update
 
 # THIS IS FOR STANDARD amd64 SYSTEMS
-apt install linux-image-5.6.0-0.bpo.2-amd64
+apt install linux-image-5.7.0-0.bpo.2-amd64
+# NOT TESTED
 
 mv ./sources.list.bak /etc/apt/sources.list
 
