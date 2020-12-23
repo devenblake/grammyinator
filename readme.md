@@ -9,5 +9,3 @@ Should be run in the user's home directory. Creates a new directory named icons/
 Should be run as root, preferably in /root. Uses git to clone the Chicago95 repository and installs the Xfce theme and icons for all users.
 ## install-ly.sh
 Should be run as root, again, preferably in /root. Uses git to clone the repository for nullgemm's ly, a lesser-known but delightful display manager, compiles ly, and installs. It also installs the various Debian dependencies beforehand.
-## upgrade-kernel.sh
-**THIS CAN BORK YOUR SYSTEM.** Backs up your /etc/apt/sources.list, makes the sole repo there Debian backports, apt updates, installs **linux 5.7 for amd64 systems** (again, this is **not portable** and **may break your system or be outdated**), restores the backup, and apt updates again.
